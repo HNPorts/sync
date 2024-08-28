@@ -261,9 +261,9 @@ clone_fox_vendor() {
 local URL="";
 local BRANCH=$FOX_BRANCH;
    if [ "$USE_SSH" = "0" ]; then
-      URL="https://gitlab.com/OrangeFox/vendor/recovery.git";
+      URL="https://github.com/HNPorts/vendor.git";
    else
-      URL="git@gitlab.com:OrangeFox/vendor/recovery.git";
+      URL="git@github.com:HNPorts/vendor.git";
    fi
 
    echo "-- Preparing for cloning the OrangeFox vendor tree ...";
